@@ -1,0 +1,24 @@
+{
+  "id": "PY-019",
+  "concepts": [
+    "py.loops",
+    "py.lists"
+  ],
+  "difficulty": 0.35,
+  "instructions": "Implement only_even(nums) that returns a list of even numbers.",
+  "starter_code": {
+    "python": "def only_even(nums):\n    # TODO\n    pass\n"
+  },
+  "tests": {
+    "python": [
+      "assert only_even([1,2,3,4])==[2,4]",
+      "assert only_even([])==[]"
+    ]
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Reminder: x % 2 == 0 indicates even."
+    }
+  ]
+}

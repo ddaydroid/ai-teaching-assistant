@@ -1,0 +1,11 @@
+id: py-loops-01
+title: For-Loops: Accumulators
+concepts: [py.loops, py.range, py.accumulators]
+difficulty: 0.45
+modalities: [hands_on]
+examples:
+  python: |
+    s = 0
+    for i in range(5):
+        s += i
+exercises: [PY-013]

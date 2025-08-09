@@ -1,0 +1,29 @@
+{
+  "id": "PY-017",
+  "concepts": [
+    "py.loops",
+    "py.conds"
+  ],
+  "difficulty": 0.4,
+  "instructions": "Implement factorial(n). For n<0, raise ValueError. Use an iterative approach.",
+  "starter_code": {
+    "python": "def factorial(n):\n    # TODO\n    pass\n"
+  },
+  "tests": {
+    "python": [
+      "import math; assert factorial(0)==1",
+      "import math; assert factorial(5)==120",
+      "import pytest; import math\nimport pytest\nwith pytest.raises(ValueError): factorial(-1)"
+    ]
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Initialize result=1 and multiply in a loop."
+    },
+    {
+      "trigger": "ValueErrorMissing",
+      "text": "Remember to guard negative inputs."
+    }
+  ]
+}

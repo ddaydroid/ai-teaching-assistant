@@ -1,0 +1,6 @@
+id: py-io-01
+title: Files & I/O Basics
+concepts: [py.files_io]
+difficulty: 0.40
+modalities: [hands_on]
+exercises: [PY-025]

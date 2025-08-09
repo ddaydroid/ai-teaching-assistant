@@ -1,0 +1,16 @@
+id: md-headings-02
+title: Headings: Structure & Hierarchy
+concepts: [md.headings]
+difficulty: 0.25
+modalities: [hands_on, theory]
+explainers:
+  theory: |
+    Headings organize content into a tree. Use one H1 per page, nest with H2, H3...
+examples:
+  markdown: |
+    # Project Title
+
+    ## Overview
+
+    ### Motivation
+exercises: [MD-001]

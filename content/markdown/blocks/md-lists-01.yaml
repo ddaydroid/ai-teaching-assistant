@@ -1,0 +1,12 @@
+id: md-lists-01
+title: Lists: Bulleted & Numbered
+concepts: [md.lists]
+difficulty: 0.20
+modalities: [hands_on]
+examples:
+  markdown: |
+    - Item A
+    - Item B
+    1. Step one
+    2. Step two
+exercises: [MD-004]

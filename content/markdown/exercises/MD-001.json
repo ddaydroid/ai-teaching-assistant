@@ -1,0 +1,26 @@
+{
+  "id": "MD-001",
+  "concepts": [
+    "md.headings"
+  ],
+  "difficulty": 0.2,
+  "instructions": "Normalize the heading levels in the provided README so there is one H1 and no level jumps.",
+  "starter_text": "## my project\n#### intro\n### goals\n###### appendix",
+  "rules": {
+    "one_h1": true,
+    "no_level_jumps": true
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Start with a single # for the main title."
+    },
+    {
+      "trigger": "lint:heading-increment",
+      "text": "Don\u2019t jump from H2 to H4; use H3."
+    }
+  ],
+  "rubric": {
+    "lint_clean": true
+  }
+}

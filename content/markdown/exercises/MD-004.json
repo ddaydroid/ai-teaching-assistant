@@ -1,0 +1,18 @@
+{
+  "id": "MD-004",
+  "concepts": [
+    "md.lists"
+  ],
+  "difficulty": 0.25,
+  "instructions": "Convert a run-on paragraph into a bullet list and a numbered list with proper indentation.",
+  "starter_text": "Items include apples bananas cherries. Steps include wash cut eat.",
+  "rules": {
+    "nested_indent_spaces": 2
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Use two spaces for nested list items."
+    }
+  ]
+}

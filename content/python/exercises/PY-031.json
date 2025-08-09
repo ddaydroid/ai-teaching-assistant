@@ -1,0 +1,23 @@
+{
+  "id": "PY-031",
+  "concepts": [
+    "py.modules_imports",
+    "py.args_io"
+  ],
+  "difficulty": 0.45,
+  "instructions": "If executed as a script, read one integer arg and print its double. Provide an if __name__=='__main__' guard.",
+  "starter_code": {
+    "python": "def cli_double():\n    # TODO\n    pass\n\nif __name__=='__main__':\n    cli_double()\n"
+  },
+  "tests": {
+    "python": [
+      "# (Harness to be implemented by runner for CLI tasks)"
+    ]
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Use sys.argv and int(...) to parse the argument."
+    }
+  ]
+}

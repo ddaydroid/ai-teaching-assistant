@@ -1,0 +1,18 @@
+{
+  "id": "MD-008",
+  "concepts": [
+    "md.links_images"
+  ],
+  "difficulty": 0.3,
+  "instructions": "Insert one external link and one local image with descriptive alt text.",
+  "starter_text": "Add a link and an image below:\n\n",
+  "rules": {
+    "image_alt_required": true
+  },
+  "hints": [
+    {
+      "trigger": "always",
+      "text": "Use [text](url) and ![alt](path)."
+    }
+  ]
+}

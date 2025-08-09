@@ -1,0 +1,6 @@
+id: py-conds-01
+title: Conditionals: if/elif/else
+concepts: [py.conds]
+difficulty: 0.30
+modalities: [hands_on, theory]
+exercises: [PY-017]

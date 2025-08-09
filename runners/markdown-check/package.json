@@ -1,0 +1,10 @@
+{
+  "name": "markdown-check",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "remark": "^15",
+    "remark-gfm": "^4",
+    "remark-preset-lint-recommended": "^6"
+  }
+}

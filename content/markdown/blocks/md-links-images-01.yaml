@@ -1,0 +1,10 @@
+id: md-links-images-01
+title: Links & Images with Alt Text
+concepts: [md.links_images]
+difficulty: 0.30
+modalities: [hands_on]
+examples:
+  markdown: |
+    [OpenAI](https://www.openai.com)
+    ![Alt text](./img.png)
+exercises: [MD-008]

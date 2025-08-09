@@ -1,0 +1,16 @@
+[project]
+name = "ai-teaching-assistant"
+version = "0.1.0"
+description = "Chat-first tutor with Markdown+Python MVP"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.111",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.6",
+  "psycopg[binary]>=3.2",
+  "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
